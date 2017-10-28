@@ -16,9 +16,10 @@ class ViewController: UIViewController {
         someTaskFromDz3()
     }
 
-    func someTaskFromDz3() {
+    func someTaskFromDz3() -> Int {
         let hello = 5
-        print(hello)
+
+        return hello
     }
 
 }
